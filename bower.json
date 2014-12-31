@@ -1,0 +1,16 @@
+{
+  "name": "myblog",
+  "version": "0.1.0",
+  "authors": [
+    "megrez <lujiajing1126@gmail.com>"
+  ],
+  "description": "megrez blog",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

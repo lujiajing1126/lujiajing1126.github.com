@@ -20,3 +20,5 @@ future: true
 lsi:      false
 #禁用定制插件
 safe:     false
+description: 小灰灰的博客
+title: Megrez Blog

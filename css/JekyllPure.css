@@ -10,7 +10,6 @@
 a {
     text-decoration: none;
     color: rgb(61, 146, 201);
-
 }
 a:hover,
 a:focus {
@@ -19,7 +18,6 @@ a:focus {
 body{
     background-color: #ffffff;
     line-height:1.6;
-//background-color: #f6f7f9;
 }
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
@@ -41,16 +39,24 @@ h3 {
 }
 
 .header {
+    position: relative;
     text-align: center;
-    top: auto;
-    margin: 3em auto;
+    top: 80px;
+    margin: 3em auto 1em;
+    z-index: 10;
 }
 
 .sidebar {
-   // background: #2d3339;
-    //background: rgb(61, 79, 93);
-
     color: #fff;
+    overflow: hidden;
+}
+
+#sidebar-bg {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: 0;
+    opacity: 0.8;
 }
 
 .brand-title,
@@ -58,7 +64,11 @@ h3 {
     margin: 0;
 }
 .brand-title {
-    text-transform: uppercase;
+    font-family: 'Wire One', Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: #F1433E;
 }
 .brand-tagline {
     font-weight: 300;
@@ -67,27 +77,31 @@ h3 {
 
 .nav-list {
     margin: 0;
+    margin-top: 20px;
     padding:0 20px;
     list-style: none;
 }
 .nav-item {
-    display: inline-block;
-    *display: inline;
     zoom: 1;
 }
 .nav-item a {
     background: transparent;
-    border: 2px solid rgb(176, 202, 219);
     color: #fff;
     margin-top: 1em;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
-    font-size: 85%;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 2px solid rgb(61, 146, 201);
     text-decoration: none;
+    opacity: 0.9;
+    color: #F1433E;
 }
 
 .content-subhead {
@@ -283,10 +297,12 @@ blockquote ul li{
     list-style-type:decimal;
 }
 .headerpic img{
+    border: 2px solid #fff;
     max-width: 100%;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 5px 0.5px #fff;
 }
 .pagination{
     margin: 15px 0;
@@ -332,10 +348,6 @@ a.pagination-item:hover {
 }
 .header a{
     color: #fff;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    -o-transition: color 0.3s;
-    transition: color 0.3s;
 }
 .article img,
 .article #video{
@@ -364,4 +376,22 @@ table tr:nth-of-type(2n) {
     *display: inline;
     zoom: 1;
     margin: 10px 10px;
+    opacity: 0.6;
+    transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+}
+.nav-link:hover {
+    opacity: 0.9;
+}
+.nav-link a,.nav-link i {
+    color: #fff;
+}
+
+.blur {    
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);    
+    filter: blur(5px);    
 }
