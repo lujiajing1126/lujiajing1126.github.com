@@ -1,5 +1,5 @@
 #production_url是sitemap.txt生成的url,方便百度谷歌收录
-production_url: http://megrez1126.github.io
+production_url: http://lujiajing1126.github.io
 #
 # Jekyll Settings
 #
@@ -22,3 +22,7 @@ lsi:      false
 safe:     false
 description: 小灰灰的博客
 title: Megrez Blog
+github: lujiajing1126
+weibo: mwevil
+gavatar: http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200
+qq: 362067276

@@ -3,48 +3,7 @@
     {% include head.html %}
 <body>
 <div id="layout" class="pure-g">
-    <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <img id="sidebar-bg" class="blur" src="/img/11670815,1440,900.jpg" />
-        <div class="header">
-            <div class="headerpic">
-                <a href="/">
-                    <img src="http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200" alt="Profile Picture" style="width: 100px;" title="返回首页" />
-                </a>
-            </div>
-            <h1 class="brand-title">Megrez</h1>
-            <h2 class="brand-tagline">An amateur coder</h2>
-
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="/Timing">Timeline</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/tag">Tags</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/">Archive</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/about">About</a>
-                    </li>
-                </ul>
-            </nav>
-            <nav id="nav">
-                <ul class="nav-list">
-                    <li class="nav-link">
-                    <a class="weibo "  href="http://weibo.com/localhost0000" ><i class="fa fa-weibo fa-2x"></i></a>
-                    </li>
-                    <li class="nav-link">
-                    <a class="github" href="https://github.com/liyouhai"><i class="fa fa-github fa-2x"></i></a>
-                    </li>
-                    <li class="nav-link">
-                    <a class="rss" href="/rss.xml" ><i class="fa fa-rss fa-2x"></i></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+    {% include sidebar.html %}
 
     <div class="content pure-u-1 pure-u-md-3-4">
         <!--[if lt IE 8]>
@@ -52,25 +11,21 @@
         <![endif]-->
         <div>
             <div class="posts">
-
                 {{ content }}
-
             </div>
             </div>
         <div class="footer">
-                <a href="/love/welcome-my-blog.html">About</a>
+                <a href="/about/">About</a>
                  <a href="/1">Collecting</a>
-                <a href="tencent://message/?uin=1003800663">QQ</a>
-                <a href="https://github.com/lujiajing1126">GitHub</a>
-            <script src="/js/min/nprogress.min.js"></script>
-            <script src="/js/index.js"></script>
+                <a href="tencent://message/?uin={{site.qq}}">QQ</a>
+                <a href="https://github.com/{{site.github}}">GitHub</a>
         </div>
         <div class="topfade"><a href="javascript:;" title="返回顶部"></a></div>
 
     </div>
 
 </div>
-
+{% include footer.html %}
 </body>
 
 </html>

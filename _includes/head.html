@@ -8,31 +8,35 @@
     <link rel="canonical" href="{{ canonical }}">
     <link href="/img/favicon.ico" rel="icon" type="image/x-icon">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="stylesheet" href="{{ "/css/min/pure-min.css" | prepend: site.baseurl}}">
+    <link rel="stylesheet" href="{{ "/bower_components/pure/pure-min.css" | prepend: site.baseurl}}">
     <!--[if lte IE 8]>
-    <link rel="stylesheet" href="/css/min/grids-responsive-old-ie-min.css">
+    <link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-old-ie-min.css" | prepend: site.baseurl }}">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="/css/min/grids-responsive-min.css">
+    <link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-min.css" | prepend: site.baseurl }}">
     <!--<![endif]-->
 
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="/css/JekyllPure-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="/css/JekyllPure.css">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/code.css" | prepend: site.baseurl }}">
     <!--<![endif]-->
 
-    <link href="/css/min/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/code.css" rel="stylesheet">
+    <link href="/css/min/fancybox.css" rel="stylesheet">
+
+    <link href="{{ "/bower_components/fontawesome/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="/css/min/font-awesome-ie7.min.css">
     <![endif]-->
     <link href="http://fonts.useso.com/css?family=Wire+One" rel="stylesheet" type="text/css">
     <link href='http://fonts.useso.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
-    <script src="/js/min/jquery-1.7.2.min.js"></script>
     <!--
      图像可以到http://asciigen.com/  生成..记得翻墙才能正常生成.如不方便可以博客留言我帮你生成
      -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   	<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+    <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
 </head>
