@@ -1,15 +1,16 @@
 <a name="comments"> </a>
 <div id="comment">
     <div class="ds-thread" data-title="{{ page.title }}"></div>
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
-        var duoshuoQuery = {short_name:""};
+    var duoshuoQuery = {short_name:"megrez"};
         (function() {
             var ds = document.createElement('script');
             ds.type = 'text/javascript';ds.async = true;
-            ds.src = '../js/min/duoshuo.js';
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
             ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0]
-                    || document.getElementsByTagName('body')[0]).appendChild(ds);
+            (document.getElementsByTagName('head')[0] 
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
         })();
     </script>
 </div>

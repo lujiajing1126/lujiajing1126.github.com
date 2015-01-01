@@ -16,21 +16,12 @@
     <link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-min.css" | prepend: site.baseurl }}">
     <!--<![endif]-->
 
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="/css/JekyllPure-old-ie.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/code.css" | prepend: site.baseurl }}">
-    <!--<![endif]-->
-
-    <link href="/css/code.css" rel="stylesheet">
     <link href="/css/min/fancybox.css" rel="stylesheet">
 
     <link href="{{ "/bower_components/fontawesome/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="/css/min/font-awesome-ie7.min.css">
-    <![endif]-->
+
     <link href="http://fonts.useso.com/css?family=Wire+One" rel="stylesheet" type="text/css">
     <link href='http://fonts.useso.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <!--
@@ -39,4 +30,14 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   	<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <script src="{{ "/bower_components/jquery/dist/jquery.min.js" | prepend: site.baseurl }}"></script>
+    <!-- Baidu Analytics -->
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?8e82ac76a2f59c7a99f565602bd619c5";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 </head>

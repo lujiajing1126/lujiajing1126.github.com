@@ -6,21 +6,26 @@ categories: jekyllupdate
 tags: [jekyll,update]
 icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Long time no writing blogs, I hava been thinking of writing or noting something what I've met during the work
 
-Jekyll also offers powerful support for code snippets:
+And also I am glad to share solutions and expriences with all of you
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In the past, I used ```Wordpress``` as my Blog Application
+<!-- more -->
+But I consider it as a heavy one and it need to be configured properly and backup punctually
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+I lost my Blog Posts twice so that I felt greatly disappointed about it
+
+Now, I use ```Jekyll``` -- a wondoerful static blog generator written in Ruby -- which make me controll all the things fluently
+
+What technicals, plugins or themes I use in my blog
+
+  - Jekyll
+  - Pure By Yahoo
+  - JekyllPure Theme
+  - Bower By Twitter
+  - Hosted On Github Pages
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll

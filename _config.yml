@@ -7,6 +7,7 @@ production_url: http://lujiajing1126.github.io
 markdown: rdiscount
 rdiscount:
   extensions: [  "autolink", ]
+gems: ["emoji_for_jekyll"]
 markdown_ext:  markdown,mkd,mkdn,md
 highlighter: pygments
 permalink: /:categories/:title.html

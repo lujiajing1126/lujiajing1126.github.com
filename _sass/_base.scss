@@ -8,7 +8,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+* {
+    outline: none;
+    border: 0;
+}
 
 /**
  * Basic styling
