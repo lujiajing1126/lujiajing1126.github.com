@@ -66,7 +66,7 @@ UI框架方面也是使用了顺手的```Bootstrap```，和```jQuery```能够配
 
 前端采用模块化+MVC的好处是，当前端的逻辑变得复杂时，可以重用大部分模块，针对每个页面写特有的逻辑就可以了，这样页面再多也能轻松维护
 
-分层主要有几部分，```application.js```是App的核心，也就是```main loop```，控制器，模型层，服务层，公共模块等
+分层主要有几部分，```application.js```是App的核心，也就是```main loop```，另外还有控制器，模型层，服务层，公共模块等
 
 当页面加载完
 
@@ -207,7 +207,7 @@ var tmp = injector.instantiate(controller, {
 
 最后返回一个```Promise```对象，可以链式调用，业务级别的错误在各控制器内分别处理
 
-当然更好的做法是对业务错误有统一的处理，并且能够能够根据情况```Override```
+当然更好的做法是对业务错误有统一的处理，并且能够根据情况```Override```
 
 {% highlight javascript %}
 /**
@@ -273,7 +273,7 @@ $.globalResponseHandler = function(data, options) {
 };
 {% endhighlight %}
 
-### 模板系统
+### **模板系统**
 
 看了市面上非常多的模板系统，大致分成两种，一种是```jade```风格的，有```slim```，另一种是原生的风格，诸如```handlebars```,```artTemplate```，包括像```erb```也算吧
 
@@ -282,7 +282,7 @@ $.globalResponseHandler = function(data, options) {
 最终我选了```artTemplate```，因为他语法简单，支持```CommonJS```打包，速度一流，尤其是官方就出了```grunt-tmod```集成工具，当然我们对他的语法稍稍扩展了一些，在发布时进行AOT静态编译，渲染速度相当快，在代码集成模板也可以很好地控制渲染逻辑
 
 
-不过3.0版本的建议语法不够用，没有for这样的循环语法，我们自己插入一断```loop```语法，当然```grunt-tmod```在npmjs上面的包有些问题，我们手动打上github最新版的补丁就好了
+不过3.0版本的简易语法不够用，没有for这样的循环语法，我们自己插入一段```loop```语法，当然```grunt-tmod```在npmjs上面的包有些问题，我们手动打上github最新版的补丁就好了
 
 {% highlight javascript %}
 defaults.parser = function (code, options) {
