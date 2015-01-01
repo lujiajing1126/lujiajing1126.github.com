@@ -273,6 +273,40 @@ $.globalResponseHandler = function(data, options) {
 };
 {% endhighlight %}
 
+### 模板系统
+
+看了市面上非常多的模板系统，大致分成两种，一种是```jade```风格的，有```slim```，另一种是原生的风格，诸如```handlebars```,```artTemplate```，包括像```erb```也算吧
+
+在这方面我考略重点是易于维护，并且语法宽松，虽然```handlebars```也不错，但是他对于输出的控制非常厉害，不能将部分数据插入到html属性里
+
+最终我选了```artTemplate```，因为他语法简单，支持```CommonJS```打包，速度一流，尤其是官方就出了```grunt-tmod```集成工具，当然我们对他的语法稍稍扩展了一些，在发布时进行AOT静态编译，渲染速度相当快，在代码集成模板也可以很好地控制渲染逻辑
+
+
+不过3.0版本的建议语法不够用，没有for这样的循环语法，我们自己插入一断```loop```语法，当然```grunt-tmod```在npmjs上面的包有些问题，我们手动打上github最新版的补丁就好了
+
+{% highlight javascript %}
+defaults.parser = function (code, options) {
+    code = code.replace(/^\s/, '');
+    
+    var split = code.split(' ');
+    var key = split.shift();
+    var args = split.join(' ');
+
+    switch (key) {
+        case 'loop':
+            code = 'for(' + args + '){';
+            break;
+
+        case '/loop':
+            code = '}';
+            break;
+
+        case 'if':
+
+            code = 'if(' + args + '){';
+            break;
+
+{% endhighlight %}
 
 ### **表单验证工具**
 
