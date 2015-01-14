@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "奢圈在自动化打包系统搭建的实践"
+title:  "奢圈自动化打包系统搭建"
 date:   2015-01-06 22:00:00
 categories: automation
 tags: [spinejs,gradle]
