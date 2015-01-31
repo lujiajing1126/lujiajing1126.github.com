@@ -84,6 +84,10 @@ buildConfigField "long", "TIMESTAMP", System.currentTimeMillis() + "L"
 buildDateLayout.setValue(io.nothing.utils.DateUtils.formatDateYMDHMS(new Date(BuildConfig.TIMESTAMP)));
 {% endhighlight %}
 
-### 错误排查
+### Issue提取
 
-这块正在进行中，到时候再会总结一下
+我们要求工程师在提交commit的时候，在commit message最开头加上[WHOSV#1]这样的文字
+
+在提交系统中会突出显示，并且点击后能够链接到指定的issue，查看评论等信息
+
+方便测试人员确认修复的细节等
