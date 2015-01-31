@@ -56,5 +56,8 @@ Github: [lujiajing1126](https://github.com/lujiajing1126)
 
   	实施的解决方案有:
   	- [Hybrid-App Solution based on Secure Incremental Updating](https://ruby-china.org/topics/23258)
-  	- Commit-Selectable & No-Brain App Release System
+  	- [Commit-Selectable & No-Brain App Release System](/automation/Commit-Selectable-and-No-Brain-App-Release-System.html)
   	- Realtime IM Server using Cowboy Over WebSocket
+    - [Bug issue solution](/solution/gitlab-webhook-to-trello.html)
+    - Safe Token System
+    - [Zabbix Monitor](/solution/zabbix-monitor-solution.html)
