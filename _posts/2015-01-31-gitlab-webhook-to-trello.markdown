@@ -122,7 +122,9 @@ virtualenv = /home/megrez/gitlab2trello
 module = server
 ```
 
-重启
+```python-path```会把该目录放到python寻找module的路径中，```module```就是我们的服务py文件名
+
+重启服务
 
 ```
 megrez@whosv-production-0:~/gitlab2trello$ sudo service uwsgi restart
