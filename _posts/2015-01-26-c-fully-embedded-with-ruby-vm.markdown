@@ -13,6 +13,7 @@ icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c514821
 
 这一步比较简单
 
+<!-- more -->
 {% highlight ruby %}
 #include <ruby.h>
 
@@ -54,7 +55,7 @@ rbenv默认不会生成.so的动态链接库文件，只会生成.a的静态文�
 
 参考这篇文章[rbenv/ruby-build and shared libraries (libruby.so)](http://stackoverflow.com/questions/23863895/rbenv-ruby-build-and-shared-libraries-libruby-so)
 
-{% highlight shell %}
+{% highlight bash %}
 $ RUBY_CONFIGURE_OPTS="--enable-shared" benv install 2.1.2
 {% endhighlight %}
 
