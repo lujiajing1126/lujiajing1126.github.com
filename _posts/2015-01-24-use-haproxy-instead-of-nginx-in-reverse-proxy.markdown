@@ -125,7 +125,7 @@ Haproxy常用与为集群服务提供单一的入口
 ### 状态监控
 
 > stats enable
-> stats auth  admin:AdMiN123
+> stats auth admin:AdMiN123
 
 通过```stats```指令开启状态监控服务，这个方面要比nginx要好多了
 
