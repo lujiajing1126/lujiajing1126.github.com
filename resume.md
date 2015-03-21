@@ -61,7 +61,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
   	奢圈安卓App开发，Ruby后端开发，云服务器维护等，负责新技术储备，产品技术选型，解决方案设计等
 
   	- Android: Hacked ActiveAndroid(ORM) + EventBus(IPC) + KnifeButter(View Injection) + Picasso(ImageLoader)
-  	- Ruby on Rails
+  	- Ruby on Rails + Sidekiq(Message Queue)
     - Ubuntu with Redis(Twemproxy) Cluster, Mongodb ReplicaSet
 
   	实施的解决方案有:
@@ -70,3 +70,4 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
     - [Bug issue solution](/solution/gitlab-webhook-to-trello.html)
     - Safe Token System
     - [Zabbix Monitor](/solution/zabbix-monitor-solution.html)
+    - App & Backend Log Gathering System
