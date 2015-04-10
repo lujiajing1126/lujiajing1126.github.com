@@ -281,6 +281,7 @@ pre .err {
         padding-left: 15px;
         border-right: #fff 0.8px solid;
         cursor: pointer;
+        -webkit-tap-highlight-color:rgba(0,0,0,0);
     }
 
 }
