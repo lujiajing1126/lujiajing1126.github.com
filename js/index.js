@@ -32,4 +32,8 @@ $(function(){
         'padding': 256,
         'tolerance': 70
     });
+    $(document).on('click','#expand-menu',function() {
+        if(slideout != undefined)
+            slideout.toggle();
+    })
 });
