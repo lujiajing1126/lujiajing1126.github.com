@@ -12,5 +12,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "slideout.js": "https://github.com/mango/slideout.git#~0.1.6",
+    "pure": "~0.6.0",
+    "fontawesome": "~4.3.0",
+    "jquery": "~2.1.3"
+  }
 }

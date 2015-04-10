@@ -215,3 +215,41 @@ pre .err {
 .search form INPUT[type="text"] {
     width: auto;
 }
+
+.content {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .slideout-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width: 256px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        display: none;
+    }
+    .slideout-panel {
+        position: relative;
+        z-index: 1;
+    }
+
+    .slideout-open,
+    .slideout-open body,
+    .slideout-open .slideout-panel {
+        overflow: hidden;
+    }
+
+    .slideout-open .slideout-menu {
+        display: block;
+    }
+
+    .slideout-menu > .header {
+        top: 0px;
+        margin-top: 1.2em;
+    }
+}

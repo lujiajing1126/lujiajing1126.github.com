@@ -1,6 +1,7 @@
 $(function(){
     //主题星期变换颜色开始
-    var dayweek=new Date().getDay();
+    var dayweek=new Date().getDay(),
+        slideout;
     //主题星期变换颜色结束
     NProgress.start();
     setTimeout(function () {
@@ -24,4 +25,11 @@ $(function(){
 
     $('.topfade').click(function(){
         $('html,body').animate({scrollTop: '0px'}, 800);});
+    
+    slideout = new Slideout({
+        'panel': $('#layout > .content')[0],
+        'menu': $('#layout > .sidebar')[0],
+        'padding': 256,
+        'tolerance': 70
+    });
 });
