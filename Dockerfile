@@ -1,10 +1,13 @@
-FROM jekyll/stable
+FROM ruby
 MAINTAINER Megrez Lu <lujiajing1126@gmail.com>
 
-ENV UPDATE_GEMFILE true
-ENV BUNDLE_CACHE true
-ENV NOISY_INSTALL true
+RUN apt-get update
+RUN apt-get install -y node python-pygments
+RUN gem install jekyll rdiscount kramdown emoji_for_jekyll
 
-ADD ./ /srv/jekyll
+VOLUME /jekyll
+ADD ./ /jekyll
 
-EXPOSE 80
+WORKDIR /jekyll
+ENTRYPOINT ["jekyll","s","-H","0.0.0.0"]
+EXPOSE 4000
