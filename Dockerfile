@@ -25,6 +25,7 @@ ADD ./ /jekyll
 WORKDIR /jekyll
 RUN jekyll build
 RUN pwd
+RUN ls
 RUN ls ./_site
 RUN cp -R ./_site/* /var/www/html
 
