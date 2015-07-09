@@ -24,7 +24,7 @@ ADD ./ /jekyll
 
 WORKDIR /jekyll
 RUN jekyll build
-RUN cp -R ./_site/* /var/www/html
+RUN cp -R /jekyll/_site/* /var/www/html
 
 ENTRYPOINT nginx
 EXPOSE 80
