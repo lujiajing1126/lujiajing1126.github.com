@@ -19,14 +19,11 @@ RUN chown -R www-data:www-data /var/www/html
 # Add default nginx config
 ADD nginx-config.conf /etc/nginx/sites-enabled/default
 
-VOLUME /jekyll
+RUN mkdir -p /jekyll
 ADD ./ /jekyll
 
 WORKDIR /jekyll
 RUN jekyll build
-RUN pwd
-RUN ls
-RUN ls ./_site
 RUN cp -R ./_site/* /var/www/html
 
 ENTRYPOINT nginx
