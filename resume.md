@@ -71,3 +71,9 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
     - Safe Token System
     - [Zabbix Monitor](/solution/zabbix-monitor-solution.html)
     - App & Backend Log Gathering System
+
+  - [UCloud](http://www.ucloud.cn/) 上海优刻得
+
+    综合开发部 Nodejs/Web developer (intern)
+
+    主要开发搭建内部BI，数据分析平台
