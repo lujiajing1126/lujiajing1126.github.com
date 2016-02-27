@@ -5,8 +5,6 @@ RUN apt-get update
 
 #Install nodejs and pygments for jekyll
 RUN apt-get install -y node python-pygments
-# Install gem dependency
-RUN gem install jekyll rdiscount kramdown emoji_for_jekyll
 
 # Install nginx
 RUN apt-get install -y software-properties-common
@@ -15,6 +13,13 @@ RUN apt-get install -y nginx
 # Close Daemon Mode
 RUN echo "\ndaemon off;" >> /etc/nginx/nginx.conf
 RUN chown -R www-data:www-data /var/www/html
+
+# Modify Sources
+RUN gem sources --remove https://rubygems.org/
+RUN gem sources -a http://ruby.taobao.org/
+
+# Install gem dependency
+RUN gem install jekyll rdiscount kramdown emoji_for_jekyll
 
 # Add default nginx config
 ADD nginx-config.conf /etc/nginx/sites-enabled/default
