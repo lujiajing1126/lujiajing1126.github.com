@@ -287,25 +287,19 @@ $.globalResponseHandler = function(data, options) {
 {% highlight javascript %}
 defaults.parser = function (code, options) {
     code = code.replace(/^\s/, '');
-    
     var split = code.split(' ');
     var key = split.shift();
     var args = split.join(' ');
-
     switch (key) {
         case 'loop':
             code = 'for(' + args + '){';
             break;
-
         case '/loop':
             code = '}';
             break;
-
         case 'if':
-
             code = 'if(' + args + '){';
             break;
-
 {% endhighlight %}
 
 ### **表单验证工具**
