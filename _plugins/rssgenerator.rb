@@ -42,29 +42,24 @@ module Jekyll
         maker.channel.link = site.config['url']
         maker.channel.description = site.config['description'] || "RSS feed for #{site.config['name']}"
         maker.channel.author = site.config["author"]
-        maker.channel.updated = site.posts.map { |p| p.date  }.max
+        maker.channel.updated = site.posts.docs.map { |p| p.date  }.max
         maker.channel.copyright = site.config['copyright']
 
-        post_limit = site.config['rss_post_limit'].nil? ? site.posts.count : site.config['rss_post_limit'] - 1
+        post_limit = site.config['rss_post_limit'].nil? ? site.posts.docs.count : site.config['rss_post_limit'] - 1
 
-        site.posts.reverse[0..post_limit].each do |post|
-          post = post.dup
-          post.render(site.layouts, site.site_payload)
+        site.posts.docs.reverse[0..post_limit].each do |doc|
+          doc.read
           maker.items.new_item do |item|
-            link = "#{site.config['url']}#{post.url}"
+            link = "#{site.config['url']}#{doc.url}"
             item.guid.content = link
-            item.title = post.title
+            item.title = doc.data['title']
             item.link = link
+            item.description = "<![CDATA[" + doc.data['excerpt'].to_s.gsub(%r{</?[^>]+?>}, '') + "]]>"
 
-            # As with Jekyll 2.3.0 the post.excerpt function returns a html encoded string.
-            # However, description should be a text only string, so we have to remove all html tags.
-            # To be on the safe side we better wrap it in CDATA tags.
-            item.description = "<![CDATA[" + post.excerpt.gsub(%r{</?[^>]+?>}, '') + "]]>"
+            # the whole doc content, wrapped in CDATA tags
+            item.content_encoded = "<![CDATA[" + doc.content + "]]>"
 
-            # the whole post content, wrapped in CDATA tags
-            item.content_encoded = "<![CDATA[" + post.content + "]]>"
-
-            item.updated = post.date
+            item.updated = doc.date
           end
         end
       end

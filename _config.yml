@@ -7,9 +7,11 @@ production_url: http://lujiajing1126.github.io
 markdown: rdiscount
 rdiscount:
   extensions: [  "autolink", ]
-gems: ["emoji_for_jekyll"]
+gems:
+  - emoji_for_jekyll
+  - jekyll-paginate
+  - rdiscount
 markdown_ext:  markdown,mkd,mkdn,md
-highlighter: pygments
 permalink: /:categories/:title.html
 paginate: 7
 paginate_path: "page/:num"
