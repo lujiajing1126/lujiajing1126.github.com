@@ -4,7 +4,7 @@ title:  "分享最新看到的一些好玩的"
 date:   2015-01-13 23:00:00
 categories: share
 tags: [js,python]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 最近在各种地方看到的好玩的东西，一些代码库或者小工具，或者特效之类的

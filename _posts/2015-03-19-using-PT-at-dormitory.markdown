@@ -4,7 +4,7 @@ title:  "同时使用PPPoe和局域网"
 date:   2015-03-19 22:00:00
 categories: creation
 tags: [openwrt,network,pppoe]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 > 目的是为了在复旦南区宿舍使用电信的网，同时使用校园内网，以openwrt为例

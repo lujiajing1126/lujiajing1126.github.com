@@ -4,7 +4,7 @@ title:  "Welcome to Jekyll!"
 date:   2014-12-06 20:19:09
 categories: jekyllupdate
 tags: [jekyll,update]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 Long time no writing blogs, I hava been thinking of writing or noting something what I've met during the work

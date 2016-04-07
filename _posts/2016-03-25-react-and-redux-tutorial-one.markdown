@@ -4,7 +4,7 @@ title:  "React & Redux Tutorial Series (1): Contruct Scaffold and ES6 Basic"
 date:   2016-03-25 16:00:00
 categories: frontend
 tags: [react,redux,es6]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 > 本系列将介绍如果完成一个react + redux的应用，本篇将介绍如何构建一个react，redux项目，以及其他必备的基础知识

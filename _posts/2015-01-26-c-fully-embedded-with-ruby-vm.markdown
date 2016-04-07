@@ -4,7 +4,7 @@ title:  "把RubyVM嵌入C"
 date:   2015-01-26 22:00:00
 categories: creation
 tags: [c,ruby]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 这个想法来源于@penpen跟我说他在objective-C里面调用ruby的代码和gem包，然后我觉得也挺好玩的~就去试了一下

@@ -4,7 +4,7 @@ title:  "用Haproxy代替Nginx作为反向代理"
 date:   2015-01-24 22:00:00
 categories: ops
 tags: [nginx,haproxy]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 之前帮别人维护一台托管在idc的服务器，用Xen装的虚拟化系统，domain-0用的nginx作为反向代理，但是因为不在domain-0上面挂载站点，所以之前就打算用haproxy代替nginx作为反向代理

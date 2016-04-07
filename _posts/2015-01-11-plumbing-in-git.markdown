@@ -4,7 +4,7 @@ title:  "Git Plumbing -- Git底层命令"
 date:   2015-01-11 22:00:00
 categories: git
 tags: [plumbing,pack,index]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 > 最近看到这篇文章[自己动手写 Git HTTP Server](http://io-meter.com/2014/07/09/simple-git-http-server/)，由此一窥Git的博大精深

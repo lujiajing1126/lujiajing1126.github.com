@@ -4,7 +4,7 @@ title:  "Javascript 连续赋值的问题深究"
 date:   2015-08-22 13:36:45
 categories: javascript
 tags: [js,language]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 > 在[牛客_帮打个广告](http://www.nowcoder.com)的前端群里碰到的一个js的问题，网上查了一下并没有令人信服的解释，遂深究一下
