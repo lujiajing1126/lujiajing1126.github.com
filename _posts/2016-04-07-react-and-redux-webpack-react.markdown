@@ -4,7 +4,7 @@ title:  "React & Redux Tutorial Series (2): Introduction to Webpack and React ba
 date:   2016-04-07 11:27:00
 categories: frontend
 tags: [react,redux,es6]
-icon: "http://en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 Author: [小灰灰](http://www.coder.dog/)
