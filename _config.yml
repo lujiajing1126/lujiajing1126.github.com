@@ -4,7 +4,7 @@ production_url: http://lujiajing1126.github.io
 # Jekyll Settings
 #
 #rdiscount解析器对于嵌入html javascript代码,为文章增加特定效果兼容较好
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions: [  "autolink", ]
 gems:
