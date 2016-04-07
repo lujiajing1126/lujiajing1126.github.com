@@ -14,8 +14,6 @@ Gender: Male
 
 Email: lujiajng1126@vip.qq.com
 
-WeChat: lujiajin_lee
-
 Github: [lujiajing1126](https://github.com/lujiajing1126)
 
 V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
