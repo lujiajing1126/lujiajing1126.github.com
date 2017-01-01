@@ -4,7 +4,7 @@ title:  "后台任务处理系统的架构演进和优化"
 date:   2017-01-01 21:00:00
 categories: solution
 tags: [golang,job,mns,redis,qps]
-icon: "/img/logo.png"
+icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
 ---
 
 ## Motivation 动机
