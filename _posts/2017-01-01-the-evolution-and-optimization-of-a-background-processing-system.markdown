@@ -15,6 +15,7 @@ icon: "/img/logo.png"
 ## Core Parameters 核心指标
 
 核心的性能指标是单位时间发送到第三方的消息数，即`QPS`，在测试中可以使用`mock`服务器。
+<!-- more -->
 
 另外其他的目标:
 
