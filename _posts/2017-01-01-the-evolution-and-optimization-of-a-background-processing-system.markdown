@@ -4,7 +4,7 @@ title:  "后台任务处理系统的架构演进和优化"
 date:   2017-01-01 21:00:00
 categories: solution
 tags: [golang,job,mns,redis,qps]
-icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg?size=200"
+icon: "/img/sqb-logo.png"
 ---
 
 ## Motivation 动机
@@ -15,8 +15,8 @@ icon: "//en.gravatar.com/userimage/53661496/41e63450976c696dfd89c047c5148212.jpg
 ## Core Parameters 核心指标
 
 核心的性能指标是单位时间发送到第三方的消息数，即`QPS`，在测试中可以使用`mock`服务器。
-<!-- more -->
 
+<!-- more -->
 另外其他的目标:
 
  - Low CPU load: 低 CPU 占用
