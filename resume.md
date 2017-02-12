@@ -22,14 +22,14 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
  - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, Bachelor
  - 2012 ~ 2014 Fudan University, Department of Economy, Minor
- - 2015 ~ (2018) Fudan University, Institute of Modern Physics, Master
+ - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Doctor
 
 ## Technicals
 
- - Mainly use ruby(web) php(web) java(android) javascript/nodejs(web/frontend) shell(SA)
- - Also use go lua objective-c(ios) swift(ios)
- - BigData exprience with Hive/Hbase (on UCloud UDDP)
- - Has a little bit utilization exprience in Linux / Xen Virtualization
+ - Mainly focus on Java(web) JavaScript/Node(web/frontend) bash(SA) Golang
+ - Also use ruby(web) php(web) lua python
+ - Amateur mobile developer, Android(Java/Kotlin), iOS(Objective-C)
+ - BigData exprience with Hive/Hbase (on UCloud UDDP), Storm, Kafka
 
 ## Working Exprience
 
@@ -74,6 +74,20 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 ### **[UCloud](http://www.ucloud.cn/) 上海优刻得云计算**
 
-  综合开发部 Nodejs/Web developer (intern)
+  综合开发部 Nodejs/Web developer (intern) 2015.
 
-  主要开发搭建内部BI，数据分析平台
+  主要开发搭建内部BI，数据分析平台(Hbase+Hive)
+
+### **[收钱吧/合码云](https://shouqianba.com) 上海喔噻科技，主营业务收钱吧，合码云是新的事业部**
+
+  收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 至今
+
+  主要负责推送系统研发，大幅提高了收钱吧交易消息的送达率(送达率提升20%以上)，缩短了延迟时间，该系统尤为适合需要高送达率低延迟的业务场景，如实时交易：
+
+  - Android 推送 SDK (Java/Kotlin): 客户端 SDK，用于封装第三方 SDK
+  - iOS 推送 SDK (Objective-C): iOS 客户端 SDK
+  - 推送网关: 基于 Java(Spring) 的提供面向内部服务的RPC推送接口和面向客户端的 Rest 接口
+  - 推送服务消费者: 基于Golang的高性能低延迟后台推送任务系统，见[后台任务处理系统的架构演进和优化](http://www.coder.dog/solution/the-evolution-and-optimization-of-a-background-processing-system.html)，2017 年 1 月 3 日被开发者头条推荐上首页，1 月 10 日被码农周刊收录
+  - 基于批处理的多维度数据仓库 + 基于流处理的推送回执统计
+
+  另外也负责数据看板，基于 Kafka 的流处理，清算系统等核心业务开发
