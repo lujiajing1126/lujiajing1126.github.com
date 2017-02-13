@@ -78,6 +78,8 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
   主要开发搭建内部BI，数据分析平台(Hbase + Hive)
 
+  根据星型模型理论构建HBase数据仓库，封装Hive/MySQL的查询接口提供RPC服务，利用Node构建BI平台，能够让数据运营人员生成多维度的报表，同时提供细分的权限系统
+
 ### **[收钱吧/合码云](https://shouqianba.com) 上海喔噻科技，主营业务收钱吧，合码云是新的事业部**
 
   收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 至今
