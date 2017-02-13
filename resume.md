@@ -74,15 +74,17 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 ### **[UCloud](http://www.ucloud.cn/) 上海优刻得云计算**
 
-  综合开发部 Nodejs/Web developer (intern) 2015.
+  综合开发部 Nodejs/Web developer (intern) 2015.03 - 2015.09
 
-  主要开发搭建内部BI，数据分析平台(Hbase+Hive)
+  主要开发搭建内部BI，数据分析平台(Hbase + Hive)
 
 ### **[收钱吧/合码云](https://shouqianba.com) 上海喔噻科技，主营业务收钱吧，合码云是新的事业部**
 
   收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 至今
 
-  主要负责推送系统研发，大幅提高了收钱吧交易消息的送达率(送达率提升20%以上)，缩短了延迟时间，该系统尤为适合需要高送达率低延迟的业务场景，如实时交易：
+  主要负责推送系统研发，大幅提高了收钱吧交易消息的送达率(送达率提升20%以上)，缩短了延迟时间，该系统尤为适合需要高送达率低延迟的业务场景，如实时交易
+
+  推送系统主要项目:
 
   - Android 推送 SDK (Java/Kotlin): 客户端 SDK，用于封装第三方 SDK
   - iOS 推送 SDK (Objective-C): iOS 客户端 SDK
