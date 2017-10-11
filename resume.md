@@ -47,16 +47,6 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
    - 后端: ThinkPHP 3.1 + Mysql + Redis + HttpSQS + Nodejs
    - 服务器端: Ubuntu + OpenResty + PHP-FPM
 
-### **上海满翼信息科技有限公司**
-
-  前端构架师  2014.07 - 2014.09
-
-  全面负责[校校](http://xiaoxiao.la)Web前端产品技术选型，开发，测试，部署维护一系列流程。主要产品有：校企平台（组织版/企业版），微信平台
-
-   - 基础设施: Seajs + jQuery(Hacked) + Bootstrap
-   - 框架: 自主研发基于[SUI](https://github.com/lujiajing1126/SUI)的MVC解决方案，在企业平台版本中选用`EmberJS`
-   - 服务器: Debian Cluster + nfs + Nginx
-
 ### **上海奢圈网络科技有限公司**
 
   全栈工程师  2014.09 - 2015.04
