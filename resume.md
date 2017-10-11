@@ -24,6 +24,10 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
  - 2012 ~ 2014 Fudan University, Department of Economy, Minor
  - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Doctor
 
+## Publications
+
+ - (Editors' Suggestion) [Jia-Jing Lu et al., Phys. Rev. C 96, 044309 (2017)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.044309)
+
 ## Technicals
 
  - Mainly focus on Java(web) JavaScript/Node(web/frontend) bash(SA) Golang
