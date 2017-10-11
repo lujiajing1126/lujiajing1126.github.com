@@ -20,9 +20,9 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 ## Education Exprience
 
- - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, Bachelor
+ - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, B.Eng.
  - 2012 ~ 2014 Fudan University, Department of Economy, Minor
- - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Doctor
+ - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Ph.D.
 
 ## Publications
 
