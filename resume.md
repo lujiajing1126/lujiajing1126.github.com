@@ -26,11 +26,13 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 ## Publications
 
- - (Editors' Suggestion) [Jia-Jing Lu et al., Phys. Rev. C 96, 044309 (2017)](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.044309)
+ - (Editors' Suggestion) [Jia-Jing Lu et al., Phys. Rev. C 96, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
 
 ## Conference Speech
 
- - [2017 KLFTP/CAS-BLTP/JINR Joint Workshop on Physics of Strong Interaction@Shenzhen](http://static.normal.im/doc/pdf/conf-notes/201711-KLFTP-BLTP-JiajingLu.pdf)
+ - [2017 KLFTP/CAS-BLTP/JINR Joint Workshop on Physics of Strong Interaction@Shenzhen](http://dajipai.u.qiniudn.com/doc/pdf/conf-notes/201711-KLFTP-BLTP-JiajingLu.pdf)
+
+ - 2018 113rd Anniversary of Fudan University
 
 ## Technicals
 
