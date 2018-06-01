@@ -48,11 +48,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
   主要开发者/Co-Founder  2013.06 - 2014.07
 
-  主要负责 SACH 产品开发，CodeReview，规范了开发部署流程，本地开发使用虚拟机环境，利用`Rsync`同步，使用基于`Rake`和`Capistrano`的一键部署方式，优化部署方案
-
-   - 前端: Bootstrap + Grunt + Seajs + Less
-   - 后端: ThinkPHP 3.1 + Mysql + Redis + HttpSQS + Nodejs
-   - 服务器端: Ubuntu + OpenResty + PHP-FPM
+  主要负责 SACH 产品开发
 
 ### **上海奢圈网络科技有限公司**
 
@@ -81,7 +77,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
   根据星型模型理论构建HBase数据仓库，封装Hive/MySQL的查询接口提供RPC服务，利用Node构建BI平台，能够让数据运营人员生成多维度的报表，同时提供细分的权限系统
 
-### **[收钱吧/合码云](https://shouqianba.com) 上海喔噻科技，主营业务收钱吧，合码云是新的事业部**
+### **[收钱吧/合码云](https://shouqianba.com) 上海喔噻科技 / 收钱吧**
 
   收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 至今
 
@@ -93,6 +89,5 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
   - iOS 推送 SDK (Objective-C): iOS 客户端 SDK
   - 推送网关: 基于 Java(Spring) 的提供面向内部服务的RPC推送接口和面向客户端的 Rest 接口
   - 推送服务消费者: 基于Golang的高性能低延迟后台推送任务系统，见[后台任务处理系统的架构演进和优化](http://www.coder.dog/solution/the-evolution-and-optimization-of-a-background-processing-system.html)，2017 年 1 月 3 日被开发者头条推荐上首页，1 月 10 日被码农周刊收录
-  - 基于批处理的多维度数据仓库 + 基于流处理的推送回执统计
 
-  另外也负责数据看板，基于 Kafka 的流处理，清算系统等核心业务开发
+  另外也负责数据看板，基于 Kafka 的流处理等核心业务开发
