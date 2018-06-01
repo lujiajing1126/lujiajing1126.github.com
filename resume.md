@@ -27,7 +27,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 ## Publications
 
- - (Editors' Suggestion) [Jia-Jing Lu _et al._, Phys. Rev. C 96, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
+ - (Editors' Suggestion) [Jia-Jing Lu _et al._, Phys. Rev. C **96**, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
 
 ## Conference Speech
 
