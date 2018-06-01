@@ -33,7 +33,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
  - [2017 KLFTP/CAS-BLTP/JINR Joint Workshop on Physics of Strong Interaction@Shenzhen](http://dajipai.u.qiniudn.com/doc/pdf/conf-notes/201711-KLFTP-BLTP-JiajingLu.pdf)
 
- - 2018 113rd Anniversary of Fudan University
+ - [2018 113rd Anniversary of Fudan University](#) (keynotes will be released soon...)
 
 ## Technicals
 
