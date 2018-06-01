@@ -23,6 +23,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
  - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, B.Eng.
  - 2012 ~ 2014 Fudan University, Department of Economics, Minor
  - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Ph.D.
+ - 2018.09 ~ 2019.05 (Scheduled) INFN Sezione di Catania, Dipartimento di Fisica, Universitá di Catania, Joint Ph.D. Student sponsored by CSC Fellowship
 
 ## Publications
 
