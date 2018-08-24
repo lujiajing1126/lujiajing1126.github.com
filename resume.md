@@ -75,11 +75,9 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
   主要开发搭建内部BI，数据分析平台(Hbase + Hive)
 
-  根据星型模型理论构建HBase数据仓库，封装Hive/MySQL的查询接口提供RPC服务，利用Node构建BI平台，能够让数据运营人员生成多维度的报表，同时提供细分的权限系统
-
 ### **[收钱吧](https://shouqianba.com) 上海喔噻科技 / 收钱吧**
 
-  收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 至今
+  收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 2018.07
 
   主要负责推送系统研发，大幅提高了收钱吧交易消息的送达率(送达率提升20%以上)，缩短了延迟时间，该系统尤为适合需要高送达率低延迟的业务场景，如实时交易
 
@@ -90,4 +88,4 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
   - 推送网关: 基于 Java(Spring) 的提供面向内部服务的RPC推送接口和面向客户端的 Rest 接口
   - 推送服务消费者: 基于Golang的高性能低延迟后台推送任务系统，见[后台任务处理系统的架构演进和优化](http://www.coder.dog/solution/the-evolution-and-optimization-of-a-background-processing-system.html)，2017 年 1 月 3 日被开发者头条推荐上首页，1 月 10 日被码农周刊收录
 
-  另外也负责数据看板，基于 Kafka 的流处理等核心业务开发
+  另外也负责数据看板，参与门店码等核心服务开发、优化
