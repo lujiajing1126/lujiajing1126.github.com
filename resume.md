@@ -18,14 +18,14 @@ Github: [lujiajing1126](https://github.com/lujiajing1126)
 
 V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
-## Education Exprience
+## Education
 
  - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, B.Eng.
  - 2012 ~ 2014 Fudan University, Department of Economics, Minor
  - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Ph.D.
  - 2018.09 ~ 2019.05 [INFN Sezione di Catania](http://www.ct.infn.it/), Joint Ph.D. Student sponsored by [CSC Fellowship](http://www.csc.edu.cn/)
 
-## Publications
+## Publication
 
  - (Editors' Suggestion) [Jia-Jing Lu _et al._, Phys. Rev. C **96**, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
 
@@ -35,7 +35,7 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
  - [2018 113<sup>rd</sup> Anniversary of Fudan University](#)
  - [2018 CNSSS18@Riken,Wakou-shi/CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/30/)
 
-## Technicals
+## Technical
 
  - Mainly focus on Java(web) JavaScript/Node(web/frontend) bash(SA) Golang
  - Also use ruby(web) php(web) lua(openresty) python
