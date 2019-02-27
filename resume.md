@@ -18,6 +18,8 @@ Github: [lujiajing1126](https://github.com/lujiajing1126)
 
 V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
+Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025279)
+
 <div itemscope itemtype="https://schema.org/Person">OCRID <a itemprop="sameAs" content="https://orcid.org/0000-0002-5204-6233" href="https://orcid.org/0000-0002-5204-6233" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-5204-6233</a></div>
 
 ## Education
