@@ -19,8 +19,8 @@ permalink: Timing/
 </script>
 <div class="archive" >
 
-
-    {% for post in site.posts reverse %}
+    {% assign post_rev = site.posts | reverse %}
+    {% for post in post_rev %}
     {% if post.layout == 'post' %}
     <article>
         <h3 class="year">{{ post.date | date: "%Y" }}</h3>

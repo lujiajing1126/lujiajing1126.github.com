@@ -7,7 +7,7 @@ production_url: https://www.coder.dog
 markdown: kramdown
 rdiscount:
   extensions: [  "autolink", ]
-gems:
+plugins:
   - emoji_for_jekyll
   - jekyll-paginate
   - rdiscount
