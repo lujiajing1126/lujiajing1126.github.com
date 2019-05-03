@@ -29,7 +29,7 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
  - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Ph.D.
  - 2018.09 ~ 2019.05 [INFN Sezione di Catania](http://www.ct.infn.it/), Joint Ph.D. Student sponsored by [CSC Fellowship](http://www.csc.edu.cn/)
 
-## Publication
+## Publications<sup>[NASA/ADS](https://ui.adsabs.harvard.edu/public-libraries/nNEKWmqEROSde1Gf4tww2Q)</sup>
 
  - (Editors' Suggestion) [Jia-Jing Lu _et al._, Phys. Rev. C **96**, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **98**, 064322 (2018)](https://doi.org/10.1103/PhysRevC.98.064322)
