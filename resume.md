@@ -35,11 +35,13 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
  - [Jia-Jing Lu _et al._, Phys. Rev. C **98**, 064322 (2018)](https://doi.org/10.1103/PhysRevC.98.064322)
  - [Jia-Jing Lu _et al._, arXiv: 1907.03120](https://arxiv.org/abs/1907.03120)
 
-## Conference Speech
+## Conference Speech and post
 
  - [2017 KLFTP/CAS-BLTP/JINR Joint Workshop on Physics of Strong Interaction@Shenzhen](http://dajipai.u.qiniudn.com/doc/pdf/conf-notes/201711-KLFTP-BLTP-JiajingLu.pdf)
  - [2018 113<sup>rd</sup> Anniversary of Fudan University](#)
  - [2018 CNSSS18@Riken,Wakou-shi/CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/30/)
+ - [[Poster] 2019 PHAROS PhD Training School: Multi-messenger physics and astrophysics with compact binaries@Jena,Germany](https://indico.tpi.uni-jena.de/event/2/overview)
+ - [[Poster] PHAROS Conference 2019@Girona,Spain](https://www.ice.csic.es/indico/event/12/overview)
 
 ## Technical
 
