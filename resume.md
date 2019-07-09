@@ -33,6 +33,7 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
 
  - (Editors' Suggestion) [Jia-Jing Lu _et al._, Phys. Rev. C **96**, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **98**, 064322 (2018)](https://doi.org/10.1103/PhysRevC.98.064322)
+ - [Jia-Jing Lu _et al._, arXiv: 1907.03120](https://arxiv.org/abs/1907.03120)
 
 ## Conference Speech
 
