@@ -43,7 +43,7 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
  - [2018 CNSSS18@Riken,Wakou-shi/CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/30/)
  - [[Poster] 2019 PHAROS PhD Training School: Multi-messenger physics and astrophysics with compact binaries@Jena,Germany](https://indico.tpi.uni-jena.de/event/2/overview)
  - [[Poster] PHAROS Conference 2019@Girona,Spain](https://www.ice.csic.es/indico/event/12/overview)
- - [2019 CNSSS18@CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/65/)
+ - [2019 CNSSS19@CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/65/)
 
 ## Technical
 
