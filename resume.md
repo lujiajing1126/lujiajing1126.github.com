@@ -42,13 +42,14 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
  - [2018 CNSSS18@Riken,Wakou-shi/CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/30/)
  - [[Poster] 2019 PHAROS PhD Training School: Multi-messenger physics and astrophysics with compact binaries@Jena,Germany](https://indico.tpi.uni-jena.de/event/2/overview)
  - [[Poster] PHAROS Conference 2019@Girona,Spain](https://www.ice.csic.es/indico/event/12/overview)
+ - [2019 CNSSS18@CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/65/)
 
 ## Technical
 
- - Mainly focus on Java(web) JavaScript/Node(web/frontend) bash(SA) Golang
- - Also use ruby(web) php(web) lua(openresty) python
- - Amateur mobile developer, Android(Java/Kotlin), iOS(Objective-C)
- - BigData exprience with Hive/Hbase (on UCloud UDDP), Storm, Kafka
+ - Mainly focus on Java JavaScript Golang
+ - Also have experience of Ruby, PHP, Lua
+ - Scientific Research with FORTRAN / Python
+ - Amateur mobile developer, Android, iOS(Objective-C)
 
 ## Working Exprience
 
@@ -85,7 +86,8 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
 
 ### **[收钱吧](https://shouqianba.com) 上海喔噻科技 / 收钱吧**
 
-  收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 2018.07
+  - 收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 2018.07
+  - 开放平台 研发工程师 (intern) 2019.06 - 至今
 
   主要负责推送系统研发，大幅提高了收钱吧交易消息的送达率(送达率提升20%以上)，缩短了延迟时间，该系统尤为适合需要高送达率低延迟的业务场景，如实时交易
 
