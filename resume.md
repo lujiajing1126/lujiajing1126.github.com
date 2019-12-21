@@ -20,6 +20,8 @@ V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025279)
 
+INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
+
 <div itemscope itemtype="https://schema.org/Person">OCRID <a itemprop="sameAs" content="https://orcid.org/0000-0002-5204-6233" href="https://orcid.org/0000-0002-5204-6233" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-5204-6233</a></div>
 
 ## Education
@@ -33,17 +35,20 @@ Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025
 
  - (Editors' Suggestion) [Jia-Jing Lu _et al._, Phys. Rev. C **96**, 044309 (2017)](https://doi.org/10.1103/PhysRevC.96.044309)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **98**, 064322 (2018)](https://doi.org/10.1103/PhysRevC.98.064322)
- - [Jia-Jing Lu _et al._, arXiv: 1907.03120](https://arxiv.org/abs/1907.03120)
+ - [Jia-Jing Lu _et al._, Phys. Rev. C **100**, 054335 (2019)](https://doi.org/10.1103/PhysRevC.100.054335) arXiv: [1907.03120](https://arxiv.org/abs/1907.03120)
  - [Jin-Biao Wei, Jia-Jing Lu _et al._, arXiv: 1907.08761](https://arxiv.org/abs/1907.08761)
 
 ## Conference Speech and Poster
 
- - [2017 KLFTP/CAS-BLTP/JINR Joint Workshop on Physics of Strong Interaction@Shenzhen](http://dajipai.u.qiniudn.com/doc/pdf/conf-notes/201711-KLFTP-BLTP-JiajingLu.pdf)
+ - [2017 KLFTP/CAS-BLTP/JINR Joint Workshop on Physics of Strong Interaction@Shenzhen](#)
  - [2018 113<sup>rd</sup> Anniversary of Fudan University](#)
  - [2018 CNSSS18@Riken,Wakou-shi/CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/30/)
- - [[Poster] 2019 PHAROS PhD Training School: Multi-messenger physics and astrophysics with compact binaries@Jena,Germany](https://indico.tpi.uni-jena.de/event/2/overview)
- - [[Poster] PHAROS Conference 2019@Girona,Spain](https://www.ice.csic.es/indico/event/12/overview)
- - [2019 CNSSS19@CNS,Tokyo University](https://indico2.cns.s.u-tokyo.ac.jp/event/65/)
+ - [[Poster] 2019 PHAROS PhD Training School: Multi-messenger physics and astrophysics with compact binaries@Jena,DE](https://indico.tpi.uni-jena.de/event/2/overview)
+ - [[Poster] PHAROS Conference 2019@Girona,ES](https://www.ice.csic.es/indico/event/12/overview)
+ - [2019 CNSSS19@CNS,Tokyo University,JP](https://indico2.cns.s.u-tokyo.ac.jp/event/65/)
+ - [ECT Workshop: The first compact star merger event – Implications for nuclear and particle physics@Trento,IT](http://indico.ectstar.eu/event/57/)
+ - [粒子物理与核物理上海研讨会@崇明,SH](https://napp.fudan.edu.cn/indico/event/70/)
+ - [Seminar@ECNU,SH](#)
 
 ## Technical
 
