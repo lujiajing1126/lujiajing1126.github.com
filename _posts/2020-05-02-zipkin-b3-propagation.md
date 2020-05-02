@@ -9,7 +9,7 @@ icon: "https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png"
 
 > 对 http://www.iocoder.cn/categories/Zipkin/ 的一些补充，分析基于Brave#release-5.11.2分支，可能未来会有所变化
 
-> 开头先打个广告，我们团队目前正在找人，坐标上海，感兴趣可以投递呀，嘻嘻。https://www.lagou.com/jobs/7082374.html?source=pl&i=pl-3&show=e9f2b043557641efa104fa8dbb7139e4
+> 开头先打个广告，我们团队目前正在找人，坐标上海，感兴趣可以投递呀，嘻嘻。[高级Java开发工程师（框架开发）](https://www.lagou.com/jobs/7082374.html?source=pl&i=pl-3&show=e9f2b043557641efa104fa8dbb7139e4)
 
 协议的细节可以在如下地址找到
 
@@ -265,4 +265,4 @@ public class Tracer {
 - Skywalking
 - Zipkin
 
-他们具有什么样的特征以及实现的区别，更加深入的考察能够帮助我们更好的做架构的选型。以后还会给大家解读更多链路追踪系统的设计和实现。
+他们具有什么样的特征以及实现的区别。更加深入的考察能够帮助我们更好的做架构的选型，以后还会给大家解读更多链路追踪系统的设计和实现。
