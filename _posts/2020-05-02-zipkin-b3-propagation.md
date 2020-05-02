@@ -2,7 +2,7 @@
 layout: post
 title:  "分析Zipkin/Brave中的B3-Propagation的设计和实现"
 date:   2020-05-02 20:40:00
-categories: solution
+categories: tracing
 tags: [java,zipkin,brave,b3]
 icon: "https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png"
 ---
