@@ -34,7 +34,7 @@ B3协议将Trace的状态(Sampling State)分为四种:
 - FLAG_SAMPLED_SET = 1 << 2 用于标记是否已经进行采样决定
 - FLAG_DEBUG = 1 << 3 用于标记是否属于DEBUG类型
 
-我们用一个Tuple如`(i,j,k)`来表示这三个值的不同组合，从左到右分别是`Flag_Sampled`，`Flag_Sampled_Set`以及`Flag_Debug`，则相应的状态表为
+我们用一个Tuple如`(i,j,k)`来表示这三个值的不同组合，从左到右分别是`Flag_Sampled_Set`，`Flag_Sampled`以及`Flag_Debug`，则相应的状态表为
 
 - (1, 1, 1) => Debug
 - (1, 1, 0) => Accept
