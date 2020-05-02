@@ -9,6 +9,8 @@ icon: "https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png"
 
 > 对 http://www.iocoder.cn/categories/Zipkin/ 的一些补充，分析基于Brave#release-5.11.2分支，可能未来会有所变化
 
+> 开头先打个广告，我们团队目前正在找人，坐标上海，感兴趣可以投递呀，嘻嘻。https://www.lagou.com/jobs/7082374.html?source=pl&i=pl-3&show=e9f2b043557641efa104fa8dbb7139e4
+
 协议的细节可以在如下地址找到
 
 > https://github.com/openzipkin/b3-propagation
@@ -66,7 +68,7 @@ public abstract class InternalPropagation {
 }
 ```
 
-以及所有合法的组合定义在`SamplingFlags`类中，这个类是`TraceContext`的基类，用于抽象表示`TraceContext`的采样状态。以下几个SamplingFlags对应于协议中标明的四个不同的状态，除此以外其他的组合理论上是不合法的。
+以及所有合法的组合定义在`SamplingFlags`类中，这个类是`TraceContext`的基类，用于抽象表示`TraceContext`的采样状态。以下几个`SamplingFlags`对应于协议中标明的四个不同的状态，除此以外其他的组合理论上是不合法的。
 
 ```java
 package brave.propagation;
@@ -257,4 +259,10 @@ public class Tracer {
 
 如果使用`curl`这样的工具，只传递一个`X-B3-Sampled: 0`，那么`Extractor`就会创建一个`SamplingFlags`，并且设置成(1, 0, 0)的状态，表明这个请求已经作出了采样决定，并且拒绝采样（Deny）。
 
+分析B3协议及其实现的目的在于理解链路追踪系统的实现，在横向对比市面上不同的Tracing产品的时候能够有的放矢，比如目前比较火的几款开源的系统，比如
 
+- Jaeger
+- Skywalking
+- Zipkin
+
+他们具有什么样的特征以及实现的区别，更加深入的考察能够帮助我们更好的做架构的选型。以后还会给大家解读更多链路追踪系统的设计和实现。
