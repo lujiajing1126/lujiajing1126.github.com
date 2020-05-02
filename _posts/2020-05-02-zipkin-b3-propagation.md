@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Zipkin/Brave中的B3-Propagation的设计"
+title:  "分析Zipkin/Brave中的B3-Propagation的设计和实现"
 date:   2020-05-02 20:40:00
 categories: solution
 tags: [java,zipkin,brave,b3]
