@@ -4,7 +4,7 @@ title:  "Zipkin/Brave中的B3-Propagation的设计"
 date:   2020-05-02 20:40:00
 categories: solution
 tags: [java,zipkin,brave,b3]
-icon: "/img/sqb-logo.png"
+icon: "https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png"
 ---
 
 > 对 http://www.iocoder.cn/categories/Zipkin/ 的一些补充，分析基于Brave#release-5.11.2分支，可能未来会有所变化
@@ -12,6 +12,10 @@ icon: "/img/sqb-logo.png"
 协议的细节可以在如下地址找到
 
 > https://github.com/openzipkin/b3-propagation
+
+<!-- more -->
+
+## Trace采样的四种状态
 
 B3协议将Trace的状态(Sampling State)分为四种:
 
@@ -22,7 +26,7 @@ B3协议将Trace的状态(Sampling State)分为四种:
 
 为了实现以上几种状态，在Brave里面使用了几个不同的bit位来标记不同的状态
 
-### Flag
+## Flags
 
 > 所有Flag的定义可以在InternalPropagation这个暴露API的类中找到，https://github.com/openzipkin/brave/blob/release-5.11.2/brave/src/main/java/brave/internal/InternalPropagation.java#L34-L39
 
@@ -84,7 +88,7 @@ public class SamplingFlags {
 }
 ```
 
-### Extract B3 Propagation Header
+## Extract B3 Propagation Header
 
 接下来分析`B3Codec`是如何从HTTP Header中提取这些信息的，Brave中有两个类负责从HTTP的头部获取Trace的上下文信息
 
@@ -178,6 +182,8 @@ static final class B3Extractor<C, K> implements TraceContext.Extractor<C> {
 - SamplingFlags: 仅包含flags, type=3
 
 我们根据`TraceIdContext`的注释可以知道，`TraceIdContext`对应的是`SpanID`是由外部系统控制的情况，比如[`Amazon X-Ray`](https://github.com/openzipkin/zipkin-aws)
+
+## Create next span with `TraceContextOrSamplingFlags`
 
 接着我们可以根据这个`union`类型`TraceContextOrSamplingFlags`来创建`Span`，代码在`Tracer`里面，
 
