@@ -13,6 +13,8 @@ icon: "https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png"
 
 今天我们来讲`Zipkin/Brave`中`Span`的超时回收机制。这里的"超时"是广义上的超时，一般是指由于`Span`停留在内存中的时间过久而触发的回收机制。超时的原因一般可以认为是程序对于`Span`的处理不当造成的，比如启动/创建了一个`Span`但由于某些原因没有关闭这个`Span`，从而导致内存泄露。
 
+<!-- more -->
+
 ## Timeout或Deadline机制
 
 在Twitter开发的RPC框架`Finagle`中我们可以找到这样的一个类[`DeadlineSpanMap`](https://github.com/twitter/finagle/blob/finagle-20.4.1/finagle-zipkin-core/src/main/scala/com/twitter/finagle/zipkin/core/DeadlineSpanMap.scala)，这个类会负责管理维护所有系统中的`Span`。以下`Finagle`的分析基于源码版本`finagle-20.4.1`。
