@@ -1,8 +1,8 @@
 $(function () {
     $(".article a").attr("target", "_blank");
     $(".brand-title,.brand-tagline,nav").remove();
-    $(".headerpic img").css("width", "100px")
-    $('#toc').toc({'container': '.article', 'selectors': 'h1,h2,h3', prefix: 'top'});
+    $(".headerpic img").css("width", "100px");
+    // $('#toc').toc({'container': '.article', 'selectors': 'h1,h2,h3', prefix: 'top'});
     $('.article').each(function (i) {
         $(this).find('img').each(function () {
             if ($(this).parent().hasClass('fancybox')) return;
