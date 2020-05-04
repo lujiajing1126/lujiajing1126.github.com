@@ -298,4 +298,73 @@ public final class PendingSpans extends ReferenceQueue<TraceContext> {
 
 关于`orphanedSpanHandler`，Brave自带的[`ZipkinFinishedSpanHandler`](https://github.com/openzipkin/brave/blob/release-5.11.2/brave/src/main/java/brave/internal/handler/ZipkinFinishedSpanHandler.java)就是一个支持OrphanedSpans的Handler。
 
+最后，我们通过`PendingSpans`的测试用例来看一下它的工作方式，
+
+```java
+package brave.internal.recorder;
+public class PendingSpansTest {
+  <SNIP>
+  /**
+   * This is the key feature. Spans orphaned via GC are reported to zipkin on the next action.
+   *
+   * <p>This is a customized version of https://github.com/raphw/weak-lock-free/blob/master/src/test/java/com/blogspot/mydailyjava/weaklockfree/WeakConcurrentMapTest.java
+   */
+  @Test
+  public void reportOrphanedSpans_afterGC() {
+    // 构建context1
+    TraceContext context1 = context.toBuilder().traceId(1).spanId(1).build();
+    // 利用Context1创建一个PendingSpan
+    PendingSpan span = pendingSpans.getOrCreate(context1, false);
+    span.state.name("foo");
+    // 移除对span的引用，那么在gc触发的时候span及其关联的Context1就会被回收
+    span = null;
+    // 类似得，构建context2,context3,context4
+    TraceContext context2 = context.toBuilder().traceId(2).spanId(2).build();
+    pendingSpans.getOrCreate(context2, false);
+    TraceContext context3 = context.toBuilder().traceId(3).spanId(3).build();
+    pendingSpans.getOrCreate(context3, false);
+    TraceContext context4 = context.toBuilder().traceId(4).spanId(4).build();
+    pendingSpans.getOrCreate(context4, false);
+    // ensure sampled local spans are not reported when orphaned unless they are also sampled remote
+    // context5是一个比较特殊的TraceContext，因为它不需要remote采样，仅设置了local采样，此类Span不会被Reporter收集
+    TraceContext context5 =
+      context.toBuilder().spanId(5).sampledLocal(true).sampled(false).build();
+    pendingSpans.getOrCreate(context5, false);
+
+    int initialClockVal = clock.get();
+
+    // By clearing strong references in this test, we are left with the weak ones in the map
+    // 移除context1, 2, 5的强引用，确保这几个对象会被gc
+    context1 = context2 = context5 = null;
+    // 模拟GC的过程，其实是调用了System.gc()
+    GarbageCollectors.blockOnGC();
+
+    // After GC, we expect that the weak references of context1 and context2 to be cleared
+    // 在GC发生以后，由于Key是一个WeakReference，context1, 2, 5都会被回收，从而Key变成null
+    assertThat(pendingSpans.delegate.keySet()).extracting(o -> ((Reference) o).get())
+      .containsExactlyInAnyOrder(null, null, context3, context4, null);
+
+    // Key为null的都会从ConcurrentHashMap中删除
+    pendingSpans.reportOrphanedSpans();
+
+    // After reporting, we expect no the weak references of null
+    // 此时ConcurrentHashMap仅包含未被回收的context3,4
+    assertThat(pendingSpans.delegate.keySet()).extracting(o -> ((Reference) o).get())
+      .containsExactlyInAnyOrder(context3, context4);
+
+    // We also expect only the sampled span containing data to have been reported
+    assertThat(spans).hasSize(1);
+    assertThat(spans.get(0).id()).isEqualTo("0000000000000001");
+    assertThat(spans.get(0).name()).isEqualTo("foo"); // data was flushed
+    assertThat(spans.get(0).annotations())
+      .containsExactly(Annotation.create((initialClockVal + 1) * 1000, "brave.flush"));
+  }
+
+  <SNIP>
+}
+```
+
+这边其实有一个地方有些问题，如果开发者对Brave库有误用，比如把Span存在了某个List或者以其他方式显式得持有了这个Span或者相应的Scope，
+那么其实GC在这里是无能为力的。此时用Timeout机制可能会更好。
+
 那么，以上就是Brave/Zipkin支持超时回收机制的始末和相关原理。
