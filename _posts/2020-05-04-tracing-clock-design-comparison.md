@@ -11,13 +11,16 @@ icon: "https://zipkin.io/public/img/logo_png/zipkin_vertical_grey_gb.png"
 
 > 开头先打个广告，我们团队目前正在找人，坐标上海，感兴趣可以投递呀，嘻嘻。[高级Java开发工程师（框架开发）](https://www.lagou.com/jobs/7082374.html?source=pl&i=pl-3&show=e9f2b043557641efa104fa8dbb7139e4)
 
-目前市面上比较火的几款开源的链路追踪产品主要有
+今天我们来讲讲Tracing系统中的时钟。目前市面上比较火的几款开源的链路追踪产品主要有
+
+<!-- more -->
 
 - Zipkin 由Twitter开源
 - Jaeger 由Uber开源
 - Skywalking 国人开发的链路追踪产品
 
 那么在链路追踪中，需要在客户端记录Span的起始时间点和持续时间，在Zipkin中，在[`Span`](https://github.com/openzipkin/zipkin/blob/release-2.21.1/zipkin/src/main/java/zipkin2/Span.java)中可以找到如下代码，
+
 
 ```java
 package zipkin2;
