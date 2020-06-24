@@ -28,7 +28,7 @@ INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
 
  - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, B.Eng.
  - 2012 ~ 2014 Fudan University, School of Economics, Minor
- - 2015 ~ (2020) Fudan University, Institute of Modern Physics, Ph.D.
+ - 2015 ~ 2020 Fudan University, Institute of Modern Physics, Ph.D.
  - 2018.09 ~ 2019.05 [INFN Sezione di Catania](http://www.ct.infn.it/), Joint Ph.D. Student sponsored by [CSC Fellowship](http://www.csc.edu.cn/)
 
 ## Publications<sup>[NASA/ADS](https://ui.adsabs.harvard.edu/public-libraries/nNEKWmqEROSde1Gf4tww2Q)</sup>
@@ -37,6 +37,8 @@ INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **98**, 064322 (2018)](https://doi.org/10.1103/PhysRevC.98.064322)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **100**, 054335 (2019)](https://doi.org/10.1103/PhysRevC.100.054335) arXiv: [1907.03120](https://arxiv.org/abs/1907.03120)
  - [Jin-Biao Wei, Jia-Jing Lu _et al._, Eur. Phys. J. A **56**, 63 (2020)](https://doi.org/10.1140/epja/s10050-020-00058-3) arXiv: [1907.08761](https://arxiv.org/abs/1907.08761)
+ - Antonio Figura, Jia-Jing Lu _et al._ arXiv: [2005.08691](https://arxiv.org/abs/2005.08691)
+ - Jia-Jing Lu _et al._ arXiv: [2005.14583](https://arxiv.org/abs/2005.14583)
 
 ## Conference Speech and Poster
 
@@ -93,7 +95,7 @@ INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
 ### **[收钱吧](https://shouqianba.com) 上海喔噻科技 / 收钱吧**
 
   - 收钱吧核心服务团队/合码云研发团队 研发工程师 (intern) 2016.06 - 2018.07
-  - 开放平台 研发工程师 (intern) 2019.06 - 至今
+  - 架构组 研发工程师 2019.06 - 至今
 
   主要负责推送系统研发，大幅提高了收钱吧交易消息的送达率(送达率提升20%以上)，缩短了延迟时间，该系统尤为适合需要高送达率低延迟的业务场景，如实时交易
 
