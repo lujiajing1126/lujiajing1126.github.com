@@ -37,7 +37,7 @@ INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **98**, 064322 (2018)](https://doi.org/10.1103/PhysRevC.98.064322)
  - [Jia-Jing Lu _et al._, Phys. Rev. C **100**, 054335 (2019)](https://doi.org/10.1103/PhysRevC.100.054335) arXiv: [1907.03120](https://arxiv.org/abs/1907.03120)
  - [Jin-Biao Wei, Jia-Jing Lu _et al._, Eur. Phys. J. A **56**, 63 (2020)](https://doi.org/10.1140/epja/s10050-020-00058-3) arXiv: [1907.08761](https://arxiv.org/abs/1907.08761)
- - Antonio Figura, Jia-Jing Lu _et al._ arXiv: [2005.08691](https://arxiv.org/abs/2005.08691)
+ - [Antonio Figura, Jia-Jing Lu _et al._, Phys. Rev. D **102**, 043006 (2020)](https://doi.org/10.1103/PhysRevD.102.043006) arXiv: [2005.08691](https://arxiv.org/abs/2005.08691)
  - Jia-Jing Lu _et al._ arXiv: [2005.14583](https://arxiv.org/abs/2005.14583)
 
 ## Conference Speech and Poster
