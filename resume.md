@@ -12,11 +12,9 @@ Name: Lu Jiajing
 
 Gender: Male
 
-Email: lujiajng1126@vip.qq.com
+Email: lujiajng1126@gmail.com
 
 Github: [lujiajing1126](https://github.com/lujiajing1126)
-
-V2EX: [lujiajing1126](https://www.v2ex.com/member/lujiajing1126)
 
 Scopus: [Lu, Jiajing](https://www.scopus.com/authid/detail.uri?authorId=57196025279)
 
@@ -29,7 +27,7 @@ INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
  - 2011 ~ 2015 Fudan University, Department of Nuclear Tech, B.Eng.
  - 2012 ~ 2014 Fudan University, School of Economics, Minor
  - 2015 ~ 2020 Fudan University, Institute of Modern Physics, Ph.D.
- - 2018.09 ~ 2019.05 [INFN Sezione di Catania](http://www.ct.infn.it/), Joint Ph.D. Student sponsored by [CSC Fellowship](http://www.csc.edu.cn/)
+ - 2018.09 ~ 2019.05, 2019.10 ~ 2019.11 [INFN Sezione di Catania](http://www.ct.infn.it/), Joint Ph.D. Student sponsored by [CSC Fellowship](http://www.csc.edu.cn/)
 
 ## Publications<sup>[NASA/ADS](https://ui.adsabs.harvard.edu/public-libraries/nNEKWmqEROSde1Gf4tww2Q)</sup>
 
@@ -49,7 +47,7 @@ INSPIRE: [Jia-Jing, Lu](https://inspirehep.net/author/profile/J.J.Lu.2)
  - [[Poster] PHAROS Conference 2019@Girona,ES](https://www.ice.csic.es/indico/event/12/overview)
  - [2019 CNSSS19@CNS,Tokyo University,JP](https://indico2.cns.s.u-tokyo.ac.jp/event/65/)
  - [ECT Workshop: The first compact star merger event – Implications for nuclear and particle physics@Trento,IT](http://indico.ectstar.eu/event/57/)
- - [粒子物理与核物理上海研讨会@崇明,SH](https://napp.fudan.edu.cn/indico/event/70/)
+ - [Annual seminar of nuclear physics and particle physics@Chongming,SH](https://napp.fudan.edu.cn/indico/event/70/)
  - [Seminar@ECNU,SH](#)
 
 ## Technical
